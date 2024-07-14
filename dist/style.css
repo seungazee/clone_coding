@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center; /*align-items : 수직 정렬*/
+    justify-content: center; /*justify-content : 가로 정렬*/
+    height: 100vh; /*vh :viewpoint height 반응형*/
+}
+
+p{
+    font-size: 2rem;
+    /*1rem = 브라우저 기본 설정 픽셀 사이즈
+    chrome인 경우 1rem = 16px (반응형)*/
+}
+
+button{
+    padding: 7px; /*컨탠츠와 margin 사이의 공간*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*커서를 포인터로 바꿔준다*/
+}
+
+button.blue{
+    background-color: blue;
+}
+
+button.green{
+    background-color: green;
+}
+
+button.red{
+    background-color: red;
+}
