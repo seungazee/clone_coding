@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Todolist</title>
 </head>
 <body>
+    <div class="todo_container"> <!--class는 css 접근을 위한 요소-->
+        <div class="todo_title">
+            <h1 class="name">Seungzaee To Do List</h1>
+        </div>
+        <div class="sub_title">
+            갓생을 살자👨‍💻
+        </div>
+        <div class="todo_append">
+            <form id="todo_form"> <!--id는 자바스크립트 접근을 위한 요소-->
+                <input id="todo_what" type="text" placeholder="할 일을 입력하세요">
+                <input id="todo_submit" type="submit" value="추가하기!">
+            </form>
+        </div>
+        <ul class="todo_box"></ul>
+    </div>
     <script src="bundle.js"></script>
 </body>
 </html>

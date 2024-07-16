@@ -1,2 +1,3 @@
 # clone_coding
-Hello github~
+Seungzaee Todo-List
+by vanila Java Script
