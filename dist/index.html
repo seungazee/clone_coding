@@ -9,29 +9,19 @@
 <body>
     <div class="todo_container"> <!--class는 css 접근을 위한 요소-->
         <div class="todo_title">
-            <h1>Seungzaee To Do List</h1>
+            <h1 class="name">Seungzaee To Do List</h1>
         </div>
         <div class="sub_title">
-            갓생을 살자
+            갓생을 살자👨‍💻
         </div>
         <div class="todo_append">
             <form id="todo_form"> <!--id는 자바스크립트 접근을 위한 요소-->
                 <input id="todo_what" type="text" placeholder="할 일을 입력하세요">
-                <input id="todo_submit" type="submit" value="추가">
+                <input id="todo_submit" type="submit" value="추가하기!">
             </form>
         </div>
         <ul class="todo_box"></ul>
     </div>
-    <input type="button" id="target" value="button" />
-<script>
-    var t = document.getElementById('target');
-    t.addEventListener('click', function(event){
-        alert(1);
-    });
-    t.addEventListener('click', function(event){
-        alert(2);
-    });
-</script>
     <script src="bundle.js"></script>
 </body>
 </html>

@@ -1,31 +1,48 @@
 body{
+    background-image: linear-gradient(white,grey);
+    /*그라데이션 배경색 넣는 방법*/
     display: flex;
-    align-items: center; /*align-items : 수직 정렬*/
-    justify-content: center; /*justify-content : 가로 정렬*/
-    height: 100vh; /*vh :viewpoint height 반응형*/
+    align-items: center; /*수직 정렬*/
+    justify-content: center; /*가로 정렬*/
+    height: 100vh;
 }
 
-p{
-    font-size: 2rem;
-    /*1rem = 브라우저 기본 설정 픽셀 사이즈
-    chrome인 경우 1rem = 16px (반응형)*/
-}
-
-button{
-    padding: 7px; /*컨탠츠와 margin 사이의 공간*/
-    border: none;
+/*그림자 박스 생성*/
+.todo_container{
+    background-color: white;
+    box-shadow: 10px 10px 0px #666666;
+    width: 300px;
+    height: 500px;
+    border: 3px solid #000;
     border-radius: 4px;
-    cursor: pointer; /*커서를 포인터로 바꿔준다*/
 }
 
-button.blue{
-    background-color: blue;
+h1{
+    font-size: 28px;
 }
 
-button.green{
-    background-color: green;
+.sub_title{
+    font-size: 16px;
+    text-align: center;
+    /*text-aligh 속성을 사용하면 수평 가운데 정렬만 가능하다*/
 }
 
-button.red{
-    background-color: red;
+.todo_append{
+    text-align: center;
+}
+
+/*palceholder 색상 변경*/
+input::placeholder{
+    color: white;
+}
+
+#todo_what{
+    border-width: 1px;
+    background-color: #b9b7b7;
+    border-radius: 4px;
+}
+
+#todo_submit{
+    border-width: 1px;
+    border-radius: 4px;
 }
